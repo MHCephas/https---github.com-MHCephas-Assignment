@@ -3,11 +3,11 @@ using namespace std;
 
 int main() {
     double purchaseAmount;
-    double discount = 0.0;
+    double discount;
     double totalCost;
 
     // Ask the user for the purchase amount
-    cout << "Enter the purchase amount: $";
+    cout << "Enter the purchase amount: ";
     cin >> purchaseAmount;
 
     // Determine the discount based on the purchase amount
